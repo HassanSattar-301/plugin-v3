@@ -1,0 +1,35 @@
+# Swagger Petstore - OpenAPI 3.0 SDK Plugin
+
+A plugin whose skills teach a coding agent to install and use the APIMatic-generated **Swagger Petstore - OpenAPI 3.0 SDK**, in java, php. Every SDK fact the skills state is grounded in the SDK's own source and generated documentation, not in what a model remembers about this API.
+
+## What's inside
+
+One skill set per language. The entry point is that language's getting-started skill, which carries what is specific to this SDK; the rest are API-agnostic and describe how to use any SDK the same generator produces.
+
+| Language | Skill prefix | Skills |
+| --- | --- | --- |
+| java | `java-` | `java-authentication`, `java-calling-endpoints`, `java-client-initialization`, `java-configuration-resilience`, `java-error-handling`, `java-getting-started`, `java-models`, `java-testing` |
+| php | `php-` | `php-authentication`, `php-calling-endpoints`, `php-client-initialization`, `php-configuration-resilience`, `php-error-handling`, `php-getting-started`, `php-models`, `php-testing` |
+
+## Install
+
+This plugin was **generated for you, not published to a shared plugin marketplace** — so you install it from a local path rather than by name. Point your coding agent at the directory holding this plugin, then install it:
+
+```
+/plugin marketplace add <path to the directory containing this plugin>
+/plugin install acme-payment-demo
+```
+
+In Codex the same two steps are CLI commands:
+
+```
+codex plugin marketplace add <path to the directory containing this plugin>
+codex plugin add acme-payment-demo@<marketplace>
+```
+
+`<marketplace>` is the name the directory you just added registers under — `codex plugin marketplace list` prints it.
+
+Once your team publishes it to a plugin marketplace, add that marketplace in place of the local path and install `acme-payment-demo` from it by name.
+
+Then ask a usage question (e.g. *"how do I authenticate this SDK with an API key?"*) to trigger the relevant skill.
+

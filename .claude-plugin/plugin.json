@@ -1,0 +1,15 @@
+{
+  "name": "acme-payment-demo",
+  "displayName": "Acme payment demo",
+  "version": "0.1.1",
+  "description": "Integrate and consume the APIMatic-generated Swagger Petstore - OpenAPI 3.0 SDK — bundled skills for java, php.",
+  "author": {
+    "name": "Basic Monthly",
+    "email": "wasif.israr+basic@apidocs.io"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/java",
+    "./skills/php"
+  ]
+}
